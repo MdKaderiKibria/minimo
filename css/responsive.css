@@ -19,7 +19,10 @@
 }
 @media(min-width:768px) and
 (max-width:991.98px){
-    
+    .logo{
+        width: 15%;
+        float: left;
+    }
     .menu ul li a {
         margin: 0px 35px;
         font-size: 13px;
@@ -34,6 +37,10 @@
 
 @media(min-width:576px) and
 (max-width:767.98px){
+     .logo{
+        width: 15%;
+        float: left;
+    }
     .menu ul li a {
         margin: 0px 20px;
         font-size: 10px;
@@ -48,9 +55,8 @@
 
 @media(max-width:575.98px){
     .menu ul li a {
-        margin: 0px 3px;
-        font-size: 8px;
-        padding:2px 2px;
+        margin: 0px 20px;
+        font-size: 13px;
     }
     .c_p{
         font-size: 10px;
@@ -63,6 +69,22 @@
         margin-bottom: 20px;
         font-size: 25px;
         font-weight: 400;
+    }
+    .logo{
+        width: 20%;
+        float: right;
+    }
+   
+    .menu{
+        width: 100%;
+        float: left;
+    }
+    .menu ul{
+        float: left;
+    }
+    .menu ul li:first-child a{
+        margin-left: 0px;
+        padding-left: 0px;
     }
 }
 
