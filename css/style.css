@@ -1,0 +1,133 @@
+/* 
+
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;
+*/
+
+/* global css start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #626262;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.padd-70{
+    padding: 70px 0px;
+}
+
+.wrapper{
+    width: 88.5%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.wrapper2{
+    width: 75%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+/* global css end */
+
+/* header start */
+header{
+    padding: 25px 0px;
+    /* border: 1px solid red; */
+}
+
+.logo{
+    width: 10%;
+    /* border: 1px solid red; */
+    float: left;
+}
+.logo img{
+    width: 100%;
+    margin-top: 3px; 
+}
+.menu{
+    width: 85%;
+    /* border: 1px solid red; */
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    margin: 0 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+.menu ul li:last-child a{
+    margin-right: 0px;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+
+/* header end */
+
+/* banner start */
+.banner{
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    display: inline-block;
+    
+}
+
+/* banner end */
+
+/* gateway start */
+.gateway{
+    padding: ;
+}
+
+.g_content{
+
+}
+
+.c_light{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.mt-35{
+    margin-top:35px;
+} 
+.c_h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_p{
+    margin: 0;
+    font-size: 16px;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+/* gateway end */
