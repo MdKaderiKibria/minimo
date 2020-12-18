@@ -55,7 +55,7 @@
 
 @media(max-width:575.98px){
     .menu ul li a {
-        margin: 0px 20px;
+        margin: 0px 10px;
         font-size: 13px;
     }
     .c_p{
@@ -72,7 +72,7 @@
     }
     .logo{
         width: 20%;
-        float: right;
+        margin:0 auto;
     }
    
     .menu{
