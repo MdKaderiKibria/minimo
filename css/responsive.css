@@ -54,10 +54,10 @@
 }
 
 @media(max-width:575.98px){
-    .menu ul li a {
-        margin: 0px 3px;
-        font-size: 10px;
-        padding: 2px 1px;
+     .menu ul li a {
+        margin: 0px 2px;
+        font-size: 8px;
+        padding: 2px 0px;
     }
     .c_p{
         font-size: 10px;
@@ -72,14 +72,16 @@
         font-weight: 400;
     }
     .logo{
-        width: 80px;
+        width: 20%;
+        float: left;
     }
    
     .menu{
-        width: 100%;
+        width: 70%;
+        float: left;
     }
     .menu ul{
-        float: left;
+        float: right;
     }
     .menu ul li:first-child a{
         margin-left: 0px;
