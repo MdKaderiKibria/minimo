@@ -55,9 +55,9 @@
 
 @media(max-width:575.98px){
      .menu ul li a {
-        margin: 0px 3px;
+        margin: 0px 5px;
         font-size: 8px;
-        padding: 2px 0px;
+        padding: 2px 2px;
     }
     .c_p{
         font-size: 10px;
