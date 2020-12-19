@@ -84,8 +84,8 @@
         float: right;
     }
     .menu ul li:last-child a{
-        margin-right: 0px;
-        padding-right: 0px;
+        margin-right: 0;
+        padding-right: 0;
     }
 }
 
