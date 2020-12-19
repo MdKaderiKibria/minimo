@@ -83,10 +83,6 @@
     .menu ul{
         float: right;
     }
-    .menu ul li:last-child a{
-        margin-right: 0;
-        padding-right: 0;
-    }
 }
 
 
