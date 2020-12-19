@@ -55,7 +55,7 @@
 
 @media(max-width:575.98px){
      .menu ul li a {
-        margin: 0px 5px;
+        margin: 0px 3px;
         font-size: 8px;
         padding: 2px 0px;
     }
@@ -68,7 +68,7 @@
     .c_h1{
         margin-top: 10px;
         margin-bottom: 20px;
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 400;
     }
     .logo{
@@ -84,8 +84,8 @@
         float: right;
     }
     .menu ul li:last-child a{
-        margin-left: 0px;
-        padding-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
     }
 }
 
